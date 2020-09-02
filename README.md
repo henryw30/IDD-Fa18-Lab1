@@ -16,8 +16,12 @@ We've copied the questions from the lab here. Answer them below!
 ## Part B. Manually Blink a LED
 
 **a. What color stripes are on a 100 Ohm resistor?**
+
+220 - red, red, brown
  
 **b. What do you have to do to light your LED?**
+
+create the circuit while making sure the longer part of the LED was connected to the button and the shorter end was connected to the resistor
 
 
 ## Part C. Blink a LED using Arduino
@@ -26,13 +30,23 @@ We've copied the questions from the lab here. Answer them below!
 
 **a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
 
+none, the default worked
+
 **b. What line(s) of code do you need to change to change the rate of blinking?**
 
+change the number in the delay() function
+
 **c. What circuit element would you want to add to protect the board and external LED?**
+
+resistor
  
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
 
+at ~13 ms delay, can prove by using a high frame rate camera, use an oscilloscope, or write some code to stop blinking after X amount of times the loop has executed
+
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
+
+
 
 
 ### 2. Blink your LED
@@ -46,12 +60,18 @@ We've copied the questions from the lab here. Answer them below!
 
 **a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**
 
+yes, the LED was still on during the entire turning range, but the intensity of the glow changed with respect to the direction of the knob
+
 
 ## Part E. Fade an LED using Arduino
 
 **a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
 
+change the led variable, which is just the pin number
+
 **b. What is analogWrite()? How is that different than digitalWrite()?**
+
+analogWrite() uses pulse width modulation to simulate an analog square wave whereas a digitalWrite() just sends a strict 0 or 1 signal
 
 
 ## Part F. FRANKENLIGHT!!!
