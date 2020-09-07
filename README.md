@@ -1,12 +1,6 @@
 # IDD-Fa19-Lab1: Blink!
 
-**A lab report by John Q. Student**
-
-**Fork** this repository to get a template for Lab 1 for *Developing and Designing Interactive Devices* at Cornell Tech, Fall 2019. You should modify this `README.md` file to delete this paragraph and update below. As the lab asks:
-
-> Include your responses to the bold questions on your own fork of the lab activities. Include snippets of code that explain what you did. Deliverables are due next Tuesday. Post your lab reports as `README.md` pages on your GitHub, and post a link to that on your main class hub page.
-
-We've copied the questions from the lab here. Answer them below!
+**A lab report by Henry Wu**
 
 ## Part A. Set Up a Breadboard
 
@@ -15,9 +9,9 @@ We've copied the questions from the lab here. Answer them below!
 
 ## Part B. Manually Blink a LED
 
-**a. What color stripes are on a 100 Ohm resistor?**
+**a. What color stripes are on a 220 Ohm resistor?**
 
-220 - red, red, brown
+220 - red, red, black, black, brown
  
 **b. What do you have to do to light your LED?**
 
@@ -38,7 +32,7 @@ change the number in the delay() function
 
 **c. What circuit element would you want to add to protect the board and external LED?**
 
-resistor
+a resistor
  
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
 
@@ -53,7 +47,7 @@ at ~13 ms delay, can prove by using a high frame rate camera, use an oscilloscop
 
 **Make a video of your LED blinking, and add it to your lab submission.**
 
-[link to your video here; feel free to upload to youtube and just paste in a link here]
+[https://photos.app.goo.gl/rBXBnrVDCe4yEjbh6]
 
 
 ## Part D. Manually fade an LED
@@ -74,7 +68,7 @@ change the led variable, which is just the pin number
 analogWrite() uses pulse width modulation to simulate an analog square wave whereas a digitalWrite() just sends a strict 0 or 1 signal
 
 
-## Part F. FRANKENLIGHT!!!
+## Part F. FRANKENLIGHT!!! (told not to worry about this since I didn't have an electronic device I can take apart)
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
 
