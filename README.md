@@ -40,7 +40,7 @@ at ~13 ms delay, can prove by using a high frame rate camera, use an oscilloscop
 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
 
-
+[https://github.com/henryw30/IDD-Fa18-Lab1/blob/master/Blink-2.ino]
 
 
 ### 2. Blink your LED
