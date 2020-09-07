@@ -10,7 +10,7 @@ We've copied the questions from the lab here. Answer them below!
 
 ## Part A. Set Up a Breadboard
 
-![breadboard](https://photos.google.com/share/AF1QipMdV5kyQOHI1VVdYJTfg2Vtgd8AAkCW6vGZVWCkNMvjm6H-XEThP-L_qVtUi010rA/photo/AF1QipP3Q0rtonJnHSwx8P53vDrUiuEXIiBdkQMCBX1Y?key=NFdHUXNlZ3FBd25kc2g5M1FaXzVwSUVRbm1Ib2lR)
+![breadboard](https://raw.githubusercontent.com/henryw30/IDD-Fa18-Lab1/master/arudino.jpg)
 
 
 ## Part B. Manually Blink a LED
